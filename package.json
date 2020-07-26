@@ -9,8 +9,8 @@
       "git add"
     ]
   },
-  "husky":{
-    "hooks":{
+  "husky": {
+    "hooks": {
       "pre-commit": "lint-staged"
     }
   },
@@ -20,7 +20,11 @@
   "private": false,
   "devDependencies": {
     "husky": "^4.2.5",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "standard": "^14.3.4"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
