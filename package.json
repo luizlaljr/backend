@@ -3,17 +3,6 @@
   "version": "1.0.0",
   "description": "Backend de sistema de compensacao financeira de missoes.",
   "main": "index.js",
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "repository": "https://github.com/luizlaljr/backend.git",
   "author": "luizlaljr <luizlaljr@gmail.com>",
   "license": "MIT License",
