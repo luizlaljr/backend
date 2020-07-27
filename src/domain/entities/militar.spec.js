@@ -1,12 +1,4 @@
-class Militar {
-  constructor (trigrama) {
-    this.trigrama = trigrama
-  }
-
-  obterTrigrama () {
-    return this.trigrama
-  }
-}
+const Militar = require('./militar')
 
 describe('obter trigrama do militar', () => {
   test('deveria retornar o trigrama do militar', () => {
