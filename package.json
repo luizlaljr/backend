@@ -14,7 +14,8 @@
     "standard": "^14.3.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "standard": {
     "env": ["jest"]
