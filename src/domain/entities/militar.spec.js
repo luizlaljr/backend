@@ -1,5 +1,5 @@
 class Militar {
-  constructor (trigrama = 'LAL') {
+  constructor (trigrama) {
     this.trigrama = trigrama
   }
 

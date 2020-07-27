@@ -14,7 +14,7 @@
     "standard": "^14.3.4"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "test:staged": "jest"
   },
   "standard": {
