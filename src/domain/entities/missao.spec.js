@@ -1,12 +1,4 @@
-class Missao {
-  constructor (numero) {
-    this.numero = numero
-  }
-
-  obterNumero () {
-    return this.numero
-  }
-}
+const Missao = require('./missao')
 
 describe('obter numero missao', () => {
   test('deveria retornar o numero da missao', () => {
